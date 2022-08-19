@@ -21,6 +21,6 @@ try
 }
 catch (ArgumentException e)
 {
+    Console.WriteLine();
     Console.WriteLine(e.Message);
-    throw;
 }
